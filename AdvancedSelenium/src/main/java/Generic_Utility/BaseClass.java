@@ -31,7 +31,7 @@ public class BaseClass {
 	public void beforeTest() {
 		System.out.println("Parallel Execution or reading external resources");
 	}
-	
+//	pullOne
 //	@Parameters("BROWSER")
 	@BeforeClass(groups = {"SmokeTest","IntegrationTest","RegressionTest"})
 	public void beforeClass() throws IOException {
